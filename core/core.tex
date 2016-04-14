@@ -1,0 +1,61 @@
+\documentclass[twoside,a4paper]{minimal}
+\usepackage[margin=0.1in]{geometry}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{ulem}
+
+\begin{document}
+\textit{OneShot! Ein RPG um den 6-seitigen Würfel für schnelle kurze Runden. OneShot!}
+\setlength{\columnsep}{5pt}
+\begin{multicols*}{3}
+\textbf{\uline{\\Spielmaterialien}}
+\\Für eine Runde OneShot benötigt man.
+\begin{itemize}
+\item 4+ Spieler, davon 1 Meister.
+\item Für jeden Teilnehmer einen sechseitigen Würfel(W6).
+\item Einen Characterbogen für jeden Spieler.
+\item Papier und Stifte.
+\end{itemize}
+\textbf{\uline{\\Charaktere}}
+\\Ein Charakter verfügt über 3 Attribute:
+\begin{itemize}
+\item \uline{Körper}: Beschreibt Stärke, Kondition, Geschick. 
+\item \uline{Geist}: Repräsentiert mentale, wie intiutive Begabung.
+\item \uline{Charisma}: Gibt wieder, wie gut ein Charakter mit anderen Umgehen kann.
+\end{itemize}
+Zu beginn startet jeder Charakter mit 0 Punkten in jedem Attribubt und 5 Punkte zur freien Verteilung. Ein Attribut kann nicht über 3 gesteigert werden. Danach werden sekundäre Werte bestimmt:
+\\Man verteile entsprechend der Punkte in Körper, Punkte auf die Kategorien: Stärke, Kondition und Geschick. Bei Proben auf körperliche Tätigkeiten dient der jeweilige Wert als Bonus. Anschließend sind nocheinmal Punkte entsprechend Körper auf Angriff, Verteidigung und Initative zu verteilen. Diese werden dann folgender verrechnet: $Angriff=6-Grundangriff,\quad Verteidigung=1+Grundverteidigung,\quad Initative=6-Grundinitative$.
+\\Man vergebe anschließend 5*Geist Punkte auf Fähigkeiten und Techniken. Für eine beispielhafte Übersicht, siehe Genre-Dokument. Fertigkeiten und Techniken über 3 zu steigern kostet pro Stufe über 3 einen zusätzlichen Punkt.
+\\Man verteile entsprechend der Punkte in Körper, Punkte auf die Kategorien: Agressiv, Listig und Diplomatisch. Diese kommen bei einer entsprechenden Sozialen Probe zum Einsatz.
+\\Vor dem letzten Schliff(Name, Geschlecht, Aussehen, Geschichte) kann ein Charakter noch bis zu 3 Spezifika auf sich nehmen. Siehe dafür den Abschnitt Spezifika und zusätzlich das Genre-Dokument.
+\textbf{\uline{\\Fertigkeitsproben}}
+\\Muss über den Ausgang einer Aktion entschieden werden, kommt es zu einer Probe. Zunächst veranschlagt der Meister verdeckt die Schwierigkeit (+1 Kinderkram, 0 Standard, -1 erfordert Erfahrung, -2 Herausforderung, -3 unmöglich). Anschließend wirft der Spieler einen W6. Für Körperliche Proben wird entweder Stärke, Kondition oder Geschick addiert. Falls er eine passende Fertigkeit hat, so addiert der Spieler den Rang dieser. Ansonsten addiert der Spieler seinen Geistrang-1. Ist das Ergebnis $\leq 3$ bedeutet dass einen Fehlschlag, ansonsten hat die Probe erfolg. Bei einer 1 oder 6 wird W6 gerollt. Eine 1, 2 bei 1 oder 5, 6 bei 6 bedeutet einen automatischen Misserfolg, bzw. Erfolg ungeachtet der Modifikatoren. Ist ein automatisches Ergebniss nach Beachtung der Modifikatoren ungeändert, bedeutet dies, dass etwas besonders Gutes oder Schlechtes passiert.
+\textbf{\uline{\\Kampf}}
+\\Bei einem Kampf würfeln alle Teilnehmer einen W6 und addieren ihre Initative. Dies ist die aktuelle Kampfinitative. Alle mit einer negativen Initative erhalten eine Überaschungsrunde mit +1 auf Schaden und Angriff und erhalten danach das positive Equivalent ihrer Initative. Anschließend beginnt der Meister Mit einem Zähler bei 0 und zählt hoch. Erreicht er da Vielfache eine Initativewertes von einem Teilnehmer, hat dieser einen Zug. Hätten mehrere Teilnehmer einen Zug entscheidet die kleinste Grundinitative. Falls ebenfalls gleich zeitgleich.
+In einem Zug kann eine Figur eine Aktion durchführen und sich einmal bewegen. Greift ein Charakter an wird ein W6 gerollt, anschließend evt. Ränge in einer entsprechenden Waffenfertigkeit und ein evt. Zielmodifikator angerechnet. Ist das Ergebnis $\geq Angriff$ so ist dies ein Treffer und es wird Schaden gerollt. Dazu wird ein W6 gerollt und Schadensmodifikator der Waffe, außerdem für Nahkampfangriffe Stärke und für Fernkampf Geschick hinzugefügt. Ist das Ergebnis $\geq$ als die Verteidigung des Gegners so erleidet dieser eine Wunde. Hat eine Figur mehr Wunden als 2+Körper wird ein W6+Kondition gewürfelt bei Erfolg wird das Ziel bewusstlos ansonsten sofort Tod. Bewustlose Charakter können als eine Aktion exekutiert werden.
+\textbf{\uline{\\Wunden und Heilung}}
+\\Wunden bleiben nach einem Kampf bestehen. Durch die Benutzung von Gegenständen oder Fähigkeiten/Techniken lassen sich Wunden entfernen(Siehe Genre spezifisches Dokument). Nach einer Mission werden alle Wunden geheilt. Hat ein Charakter mehr als die Hälfte seines Wundlimits wunden erhält er einen Malus von -1 auf jeden W6, außer Initative, wo stattdessen addiert wird.
+\textbf{\uline{\\Soziale Interaktionen}}
+\\Versucht ein Spieler einen NSC sozial zu Interagieren, so wählt er zunächst eine Methode, addiert ihren Bonus dazu und vergleicht ihn mit dem entsprechenden Wert des Gegners:
+\\$Agressiv\iff Koerper,Listig\iff Geist,Diplomatisch\iff Charisma$
+\\Bei einem Misserfolg sinkt die Stimmung des Gegenübers für weitere Versuche um 1. Die Stimmung beginnt abhängig von der Beziehung(für Diplomatisch oder Listig) zum Spielercharakter bei -2 feindlich über 0 neutral bis zu +2 befreundet. Bei Agressiv entscheiden die Wunden über die Stimmung. Dabei hat eine Figur die Hälte ihres Wundlimits noch nicht überschritten ist die Stimmung -1, ansonsten +1. Bei keinen Wunden ist sie -2, während sie kurz vor dem Tod +2 ist. Hat man einen Erfolg, scheitert aber nach hinzufügen der Stimmung, steigt diese um 1. Nach $4-Charisma$ des Gegenübers echt gescheiterten Versuchen reißt dem Gegenüber der Geduldsfaden und bricht das Gespräch ab. Kritische Misserfolge bedeuten 2 gescheiterte Versuche. Begleitende Charaktere oder solche mit ähnlichen Anliegen werden für 24h automatisch abgewiesen.
+\textbf{\uline{\\Generelle Fähigkeiten und Techniken}}
+\\Fertigkeiten: 
+\begin{itemize}
+\item Menschenkenntnis: Haltung und Wahrheit des Gegenübers
+\item Umgang mit Waffe(XY): Wird auf Angriffswurf addiert, falls mit passender Waffe.
+\item Wissen um(Rasse/ Ort*/ Achritektur/ Pflanzen / Tiere /Wissenschaft*/ Legenden): Universell auf geeignete Proben anwendbar.
+\item Sinnesschärfe: Sehen, Hören, Riechen, Fühlen, Schmecken.
+\end{itemize}
+\textit{Mit * markierte Objekte haben Genre-spezifische Angaben}
+\textbf{\uline{\\Gegenstände}}
+\textbf{\uline{\\Spezifika}}
+\begin{itemize}
+\item Abgehärtet: Wundlimit um 1 senken, dafür kein Malus aufgrund von Wunden.
+\item Besondere Begabung: Ein Attribut von 3 auf 4 steigern, dafür -1 auf die anderen Attribute(kann auch ins negative gehen)
+\end{itemize}
+\textit{\\Text und Gestaltung von\\EWanderer/Axiomatis/Numinor}
+\end{multicols*}
+
+\end{document}
