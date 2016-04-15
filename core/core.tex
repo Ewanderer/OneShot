@@ -25,8 +25,8 @@
 \item \uline{Charisma}: Gibt wieder, wie gut ein Charakter mit anderen Umgehen kann.
 \end{itemize}
 Zu beginn startet jeder Charakter mit 0 Punkten in jedem Attribubt und 5 Punkte zur freien Verteilung. Ein Attribut kann nicht über 3 gesteigert werden. Danach werden sekundäre Werte bestimmt:
-\\Man verteile entsprechend der Punkte in Körper, Punkte auf die Kategorien: Stärke, Kondition und Geschick. Bei Proben auf körperliche Tätigkeiten dient der jeweilige Wert als Bonus. Anschließend sind nocheinmal Punkte entsprechend Körper auf Angriff, Verteidigung und Initative zu verteilen. Diese werden dann folgender verrechnet: $Angriff=6-Grundangriff,\quad Verteidigung=1+Grundverteidigung,\quad Initative=6-Grundinitative$.
-\\Man vergebe anschließend 5*Geist Punkte auf Fähigkeiten und Techniken. Für eine beispielhafte Übersicht, siehe Genre-Dokument. Fertigkeiten und Techniken über 3 zu steigern kostet pro Stufe über 3 einen zusätzlichen Punkt.
+\\Man verteile entsprechend der Punkte in Körper, Punkte auf die Kategorien: Stärke, Kondition und Geschick. Bei Proben auf körperliche Tätigkeiten dient der jeweilige Wert als Bonus. Anschließend sind nocheinmal Punkte entsprechend Körper auf Angriff, Verteidigung und Initative zu verteilen. Diese werden dann folgender verrechnet:\\$Angriff=6-Grundangriff,\quad Verteidigung=3+Grundverteidigung,\quad Initative=6-Grundinitative$.
+\\Man vergebe anschließend 5+5*Geist Punkte auf Fähigkeiten und Techniken. Für eine beispielhafte Übersicht, siehe Genre-Dokument. Fertigkeiten und Techniken über 3 zu steigern kostet pro Stufe über 3 einen zusätzlichen Punkt.
 \\Man verteile entsprechend der Punkte in Körper, Punkte auf die Kategorien: Agressiv, Listig und Diplomatisch. Diese kommen bei einer entsprechenden Sozialen Probe zum Einsatz.
 \\Vor dem letzten Schliff(Name, Geschlecht, Aussehen, Geschichte) kann ein Charakter noch bis zu 3 Spezifika auf sich nehmen. Siehe dafür den Abschnitt Spezifika und zusätzlich das Genre-Dokument.
 \textbf{\uline{\\Fertigkeitsproben}}
@@ -37,9 +37,9 @@ In einem Zug kann eine Figur eine Aktion durchführen und sich einmal bewegen. G
 \textbf{\uline{\\Wunden und Heilung}}
 \\Wunden bleiben nach einem Kampf bestehen. Durch die Benutzung von Gegenständen oder Fähigkeiten/Techniken lassen sich Wunden entfernen(Siehe Genre spezifisches Dokument). Nach einer Mission werden alle Wunden geheilt. Hat ein Charakter mehr als die Hälfte seines Wundlimits wunden erhält er einen Malus von -1 auf jeden W6, außer Initative, wo stattdessen addiert wird.
 \textbf{\uline{\\Soziale Interaktionen}}
-\\Versucht ein Spieler einen NSC sozial zu Interagieren, so wählt er zunächst eine Methode, addiert ihren Bonus dazu und vergleicht ihn mit dem entsprechenden Wert des Gegners:
+\\Versucht ein Spieler einen NSC sozial zu Interagieren, so wählt er zunächst eine Methode, würfelt eine W6 und addiert seinen Bonus dazu und vergleicht das Ergebniss mit dem entsprechenden Wert des Gegners:
 \\$Agressiv\iff Koerper,Listig\iff Geist,Diplomatisch\iff Charisma$
-\\Bei einem Misserfolg sinkt die Stimmung des Gegenübers für weitere Versuche um 1. Die Stimmung beginnt abhängig von der Beziehung(für Diplomatisch oder Listig) zum Spielercharakter bei -2 feindlich über 0 neutral bis zu +2 befreundet. Bei Agressiv entscheiden die Wunden über die Stimmung. Dabei hat eine Figur die Hälte ihres Wundlimits noch nicht überschritten ist die Stimmung -1, ansonsten +1. Bei keinen Wunden ist sie -2, während sie kurz vor dem Tod +2 ist. Hat man einen Erfolg, scheitert aber nach hinzufügen der Stimmung, steigt diese um 1. Nach $4-Charisma$ des Gegenübers echt gescheiterten Versuchen reißt dem Gegenüber der Geduldsfaden und bricht das Gespräch ab. Kritische Misserfolge bedeuten 2 gescheiterte Versuche. Begleitende Charaktere oder solche mit ähnlichen Anliegen werden für 24h automatisch abgewiesen.
+\\Bei einem Misserfolg sinkt die Stimmung des Gegenübers für weitere Versuche um 1. Die Stimmung beginnt abhängig von der Beziehung(für Diplomatisch oder Listig) zum Spielercharakter bei -2 feindlich über 0 neutral bis zu +2 befreundet. Bei Agressiv entscheiden die Wunden über die Stimmung. Gat ein Charakter die Hälte seines Wundlimits noch nicht überschritten ist seine Stimmung -1, ansonsten +1. Bei keinen Wunden ist die Stimmung -2, während sie kurz vor dem Tod +2 ist. Hat man einen Erfolg, scheitert aber nach hinzufügen der Stimmung, steigt diese um 1. Nach $4-Charisma$ des Gegenübers echt gescheiterten Versuchen reißt dem Gegenüber der Geduldsfaden und bricht das Gespräch ab. Kritische Misserfolge bedeuten 2 gescheiterte Versuche. Begleitende Charaktere oder solche mit ähnlichen Anliegen werden für 24h automatisch abgewiesen.
 \textbf{\uline{\\Generelle Fähigkeiten und Techniken}}
 \\Fertigkeiten: 
 \begin{itemize}
@@ -50,10 +50,18 @@ In einem Zug kann eine Figur eine Aktion durchführen und sich einmal bewegen. G
 \end{itemize}
 \textit{Mit * markierte Objekte haben Genre-spezifische Angaben}
 \textbf{\uline{\\Gegenstände}}
+\\Im Allgemeinen sind relevante Gegenstände in 3 Kategorien eingeteilt: Waffen, Rüstungen, Werkzeuge, sowie Gebrauchsgegenstände.
+\\Waffen werden in Nahkampf und Fernkampf unterteilt. Für Nahkampf ist immer einen Schadensmodifikator von -2 bis 2 angegeben. Fernkampfwaffen haben darüber hinaus Angaben zur Reichweite. Für jedes Inkrement über der Reichweite ersten werden Schaden und Angriff um 1 gesenkt. Sinkt der Schadensmodifikator auf 0, ist die Waffe wirkungslos.
+\\Rüstungen gewähren einen Verteidigungsbonus von 0 bis 3. Zusätzlich hat jede Rüstung aber auch einen Malus, welcher auf Körper-Proben, Angriff und alle entsprechend gekennzeichnete Fertigkeiten angewendet wird.
+\\Werkzeuge helfen bei Fertigkeitsproben. Dabei gibt es 3 Varianten: Als erstes solche die einen Bonus von 1 bis 3 geben und nur bei einem kritischen Fehlschlag kaputt gehen. Geben sie einen Bonus von 4+ haben sie zusätzlich eine Beschränkung, wie häufig sie eingesetzt werden können(Haltbarkeit). Schließlich gibt es jene, die eine Probe automatisch gelingen lassen, sich aber ebenfalls nur begrenzt einsetzten lassen(Haltbarkeit).
+\\Als Gebrauchsgegenstände wird jede Art von Ausrüstung bezeichnet, welche einen genrespezifischen Nutzen haben (Heiltränke, Manatränke, etc.).
+\textbf{\uline{\\Steigern}}
+
 \textbf{\uline{\\Spezifika}}
 \begin{itemize}
 \item Abgehärtet: Wundlimit um 1 senken, dafür kein Malus aufgrund von Wunden.
 \item Besondere Begabung: Ein Attribut von 3 auf 4 steigern, dafür -1 auf die anderen Attribute(kann auch ins negative gehen)
+\item Rüstungsgewöhnung: Ziehe 3 Skillpunkte ab und senke dafür den Malus von Rüstungen um 1.
 \end{itemize}
 \textit{\\Text und Gestaltung von\\EWanderer/Axiomatis/Numinor}
 \end{multicols*}
