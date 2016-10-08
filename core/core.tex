@@ -33,9 +33,10 @@ Zu beginn startet jeder Charakter mit 0 Punkten in jedem Attribubt und 5 Punkte 
 \\Muss über den Ausgang einer Aktion entschieden werden, kommt es zu einer Probe. Zunächst veranschlagt der Meister verdeckt die Schwierigkeit (+1 Kinderkram, 0 Standard, -1 erfordert Erfahrung, -2 Herausforderung, -3 unmöglich). Anschließend wirft der Spieler einen W6. Für Körperliche Proben wird entweder Stärke(z.B. Klettern), Kondition(z.B. Rennen) oder Geschick(z.B. Schleichen) addiert. Falls er eine passende Fertigkeit hat, so addiert der Spieler den Rang dieser. Ansonsten addiert der Spieler seinen Geistrang-1. Ist das Ergebnis $\leq 3$ bedeutet dass einen Fehlschlag, ansonsten hat die Probe erfolg. Bei einer 1 oder 6 wird W6 gerollt. Eine 1, 2 bei 1 oder 5, 6 bei 6 bedeutet einen automatischen Misserfolg, bzw. Erfolg ungeachtet der Modifikatoren. Ist ein automatisches Ergebniss nach Beachtung der Modifikatoren ungeändert, bedeutet dies, dass etwas besonders Gutes oder Schlechtes passiert.
 \textbf{\uline{\\Kampf}}
 \\Bei einem Kampf würfeln alle Teilnehmer einen W6 und addieren ihre Initative. Dies ist die aktuelle Kampfinitative. Alle mit einer negativen Initative erhalten eine Überaschungsrunde mit +1 auf Schaden und Angriff und erhalten danach das positive Equivalent ihrer Initative. Anschließend beginnt der Meister Mit einem Zähler bei 0 und zählt hoch. Erreicht er das Vielfache eine Initativewertes von einem Teilnehmer, hat dieser einen Zug. Hätten mehrere Teilnehmer einen Zug entscheidet die kleinste Grundinitative. Falls ebenfalls gleich zeitgleich.
-In einem Zug kann eine Figur eine Aktion durchführen und sich einmal bewegen. Greift ein Charakter an wird ein W6 gerollt, anschließend evt. Ränge in einer entsprechenden Waffenfertigkeit und ein evt. Zielmodifikator angerechnet. Ist das Ergebnis $\geq Angriff$ so ist dies ein Treffer und es wird Schaden gerollt. Dazu wird ein W6 gerollt und Schadensmodifikator der Waffe, außerdem für Nahkampfangriffe Stärke und für Fernkampf Geschick hinzugefügt. Ist das Ergebnis $\geq$ als die Verteidigung des Gegners so erleidet dieser eine Wunde. Hat eine Figur mehr Wunden als 2+Körper wird eine W6+Kondition gewürfelt. Bei Erfolg wird das Ziel bewusstlos ansonsten sofort Tod. Bewustlose Charakter können als eine Aktion exekutiert werden.
+In einem Zug kann eine Figur eine Aktion durchführen und sich einmal bewegen, Bewegungsreichweite 6 Felder, abzüglich Rüstungsmalus(minimum 1 Reichweite). Greift ein Charakter an wird ein W6 gerollt, anschließend evt. Ränge in einer entsprechenden Waffenfertigkeit und ein evt. Zielmodifikator angerechnet. Ist das Ergebnis $\geq Angriff$ so ist dies ein Treffer und es wird Schaden gerollt. Dazu wird ein W6 gerollt und Schadensmodifikator der Waffe, außerdem für Nahkampfangriffe Stärke und für Fernkampf Geschick hinzugefügt. Ist das Ergebnis $\geq$ als die Verteidigung des Gegners so erleidet dieser eine Wunde. Hat eine Figur mehr Wunden als 2+Körper wird eine W6+Kondition gewürfelt. Bei Erfolg wird das Ziel bewusstlos ansonsten sofort Tod. Bewustlose Charakter können als eine Aktion exekutiert werden.
 \textbf{\uline{\\Wunden und Heilung}}
 \\Wunden bleiben nach einem Kampf bestehen. Durch die Benutzung von Gegenständen oder Fähigkeiten/Techniken lassen sich Wunden entfernen(Siehe Genre spezifisches Dokument). Nach einer Mission werden alle Wunden geheilt. Hat ein Charakter mehr als die Hälfte seines Wundlimits Wunden erhält er einen Malus von -1 auf jeden W6, außer Initative, wo stattdessen addiert wird.
+
 \textbf{\uline{\\Soziale Interaktionen}}
 \\Versucht ein Spieler mit einem NSC sozial zu Interagieren, so wählt er zunächst eine Methode, würfelt eine W6 und addiert seinen Bonus dazu und vergleicht das Ergebniss mit dem entsprechenden Wert des Gegners:
 \\$Agressiv\iff Koerper,Listig\iff Geist,Diplomatisch\iff Charisma$
@@ -74,6 +75,35 @@ Nach einer Mission erhält jeder Teilnehmer einen Sagenpunkt. Ein beliebiger Wer
 \item \uline{Lebenswille}: Wundlimit steigt um 1, allerdings wird zum nächsten Abenteuer eine Wunde mitgenommen. (Nicht für echte One-Shots)
 \item \uline{Geduld}: Initiative wird aus 10-Grundinitative berechnet, dafür steigen Angiff und Verteidigung um 1. 
 \end{itemize}
+\textbf{\uline{\\Spielleiter}}
+Die Aufgabe des Spielleiters ist es den übrigen Spielern die Mission und ihren Ablauf zu beschreiben und zu kontrollieren. Neben der klassischen Entwicklung von Missionen aus dem Kopf heraus, soll hier ein zufallsbasierter Missionsgenerator vorgestellt werden.
+\\Zur Darstellung der Welt nehme man ein Blatt mit Raster. Figuren nehmen in der Regel eine Fläche von 2x2 Kästchen ein, während kleinere und größere Einheiten(wozu vor allem Gegner zählen) andere Maße haben können. Alle Angaben bezüglich Reichweite von Waffen, Effekten, Bewegung werden in Kästchen angegeben. Beim Messen wird nicht über diagonale Nachbarn gegangen(die Länge einer Diagonalen wird durch zählen der Kästchen in Stufenform gemessen).
+\\Nun also zum eigentlichen Generien. Zunächst wird das Szenario bestimmt. Dies kann entweder durch einen Würfelwurf(W6) oder einfache Auswahl geschehen.
+\begin{enumerate}
+\item 1. Zerstören: Im Zielgebiet muss eine Einheit oder Struktur getötet werden.
+\item 2. Säubern: Alle Einheiten müssen elemeniert werden.
+\item 3. Beschaffung: Etwas muss aus dem Gebiet extrahiert werden.
+\item 4. Durchqueren: Ein bestimmter Punkt muss erreicht werden.
+\item 5. Bechützen: Etwas muss vor Zerstörung beschützt werden.
+\item 6. Alternative: Entweder neu rollen oder falls zusätzliche Missionstypen vorhanden mit weiteren W6 klassifizieren.
+\end{enumerate}
+Nun wählt man die Schwierigkeit(kurz SG) auf einer Skala von 1(Kinderspiel) bis 6(Selbstmord). Als nächstes werden entsprechend viele W6 gerollt und daraus Zusatzbedienungen generiert:
+\begin{itemize}
+\item 1. Ungesehen: Es darf kein Alarm ausgelöst werden. In der Defensiven wird dieses Ergebnis erneut gerollt.
+\item 2. Zeitlimit: Mission endet nach 6W6 Echtminuten oder in der Defensive nach W6*10+6W6 Runden.
+\item 3. Zivilisten: SGW6 Zivilisten in jedem Abschnitt, die überleben müssen. SG-3W6(Minimum 0) Zivilisten sind dabei in der Hand von Feinden.
+\item 4. Kaspelmission: Bestimme ein weiteres Grundlegendes Szenario und mixe es mit den übrigen.
+\item 5. Verstärke letzte Seitenbediengung oder falls dies erstes Ergebnis das nächste. Bei doppeltem Auftreten wird erneut gerollt.
+\item 6. Alternative: Neu rollen oder züsätzliche W6 zur Auswahl weiterer Nebenbedieungungen.
+\end{itemize} 
+Diese Zusatzbediengungen existieren in 3 Stufen: Optional, wenn sie erfüllt werden gibt es einen zusätzlichen Sagapunkt. Kritisch: Sobald sie Fehlschlagen steigt die Schwierigkeit entweder durch mehr oder stärkere Gegner oder gloabale Abzüge(in der Regel SG/2, min 1) für den Rest der Mission. Sowie Notwendige: Welche die gesamte Mission scheitern lassen. Auf SG 1-2 sind alle ZB optional, bis sie entweder verstärkt werden oder duplikate auftreten. Bei letzteren mitteln wir die Werte. Auf SG 3-4 ist außerdem die erste ZB von vornherein Kritisch. Auf SG 5-6 ist sogar die erste ZB notwendig und die zweite ZB kritisch.
+\\Bei dem Layout der Übersichtskarte kann man entweder mit einem W6 schrittweise auswürfen(1-Sackgasse, 2 - Gang oder Kurve, 3 - T-Kreuzung, 4 - echte Kreuzung, 5 - Ereignisraum, 6 - Zielgebiet), wobei man je nach SG auf eine Mindestgröße achten sollte(4*SG Räume, davon mindestens SG*2 Ereignisräume und natürlich ein Zielgebiet) oder klassisch planen. Als Ereignisraum kann man hierbei eine Konfrontation, Falle, Puzzel, etc. betrachten. Für Anregungen siehe weitere Quellen.
+\\Als letzten Schliff betrachten wir noch das generien von Gegnergruppen. Zunächst die Größe, welche durch SGW6 bestimmt wird. Für Stärkere Gruppen erhöhe die Zahl um SG, für schwächere halbiere die gewürfelte Zahl(Minimum 1). Für jede Einheit würfelt man nun die Anzahl der Attributspunkte mit einem W6 aus. Insgesamt können zusätzlich SG Attributpunkte unter allen Einheiten aufgeteilt werden und für Bosse addieren wir SG/2(min 1) auf seinen Attributspool. Für eine genaue Verteilung der Punkte, die Ausrüstung etc. existiert in jedem Genre-Dokument ein Absatz aus Archetypen, aus denen gewürfelt wird mit W6.
+\\Diese Methodik ist sehr rudimentär und sollte stehts nur zur schnellen Grundsteinlegung dienen.
+\textbf{\uline{\\Schlusswort}}
+Habt Spaß und Stuff, Fehler, Verbesserungen oder Erweiterungen können an codefreak.42@gmail.com gesendet werden. 
+\\Dieses Regelwerk steht unter Creative Commons by-nc-sa.
+\\Zusätzliche Ergänzungen(vor allem die vielerwähnten Genre-Dokumente) sind im hoffentlich ähnlich kompakten ein Blatt-Format verfügbar und jeder ist gerne eingeladen für seine Settings entsprechende Ergänzungen zu schreiben, solange auf dieses Hauptwerk verwiesen wird. 
 \textit{\\Text und Gestaltung von\\EWanderer/Axiomatis/Numinor}
 \end{multicols*}
 
