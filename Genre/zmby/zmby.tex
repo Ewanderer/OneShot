@@ -1,0 +1,95 @@
+\documentclass[twoside,a4paper]{minimal}
+\usepackage[margin=0.1in]{geometry}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{ulem}
+
+\begin{document}
+\textit{OneShot - Zmby. die Apokalypse ist da.}
+\setlength{\columnsep}{5pt}
+\begin{multicols*}{3}
+\textbf{\uline{\\Übersicht Szenario}}
+\\Willkommen in der Postapokalypse. Vor 1 Monat ist die Welt in Chaos versunken und die Welt wie wir sie kannten mit all ihrem Komfort ist nun nur noch eine Ruine, in der die Überlebenden nach verwertbaren suchen, um sich Rückzugsorte aufzubauen. Vor wem man sich zurückzieht? Nun den Horden von hirnlosen Menschen und Tieren, die Jagd auf alles machen, was nicht infiziert ist. Dazu kommen noch andere Überlebende von denen nicht alle freundlich sind. Die Spieler schlüpfen in die Rolle einer kleinen Gruppe Überlebender.
+\textbf{\uline{\\Überleben 101}}
+\\Ohne Einkaufsladen, fließendes Wasser oder Strom als Selbstverständlichkeit müssen Charakter um dies kümmern. Auf den Bogen werden nun Felder für Hunger und Durst eingetragen. Jeden Tag müssen Charaktere eine Ration von beidem konsumieren ansonsten steigt der entsprechende Wert um 1. Jede Mahlzeit/Trinken senkt den entsprechenden Wert wiederum bis auf 0. 3 Punkte Hunger geben einen Malus von -1 auf alle Proben(Initiative natürlich Invers) und mit 9 Punkten stirbt ein Charakter, außer ihm gelingt eine Konditionsprobe einmal pro Tag. Bei Trinken ist dies noch rabiater, man kriegt bei 3 Punkten einen Abzug von -2 und bei 5 stirbt man, außer es gelingt eine tägliche Konditionsprobe.
+\\Ein wichtiger Aspekt ist außerdem die Infektion, welche einen übernehmen kann. Jedes mal, wenn eine Figur eine Wunde von einem Infizierten erhält steigt der Wert Infektion um 1 und es muss eine Probe auf Körper erschwert um die aktuelle Infektion, ansonsten beginnt man ihr im Laufe der nächsten 3 Tage zu erliegen. Die Symptome sind Schwindel am ersten Tag(-1 auf alle Probe), anschließend Fieber, während man am dritten Tag in die Bewusstlosigkeit abdriftet.
+\textbf{\uline{\\Gegenstände}}
+\\Zunächst eine kleine Kompilierung von Gegenständen, die für die tägliche Routine in der Apokalypse benutzt werden.
+\begin{itemize}
+\item Nahrung. Verbrauchsgegenstand gegen Hunger. Kommt mit einer Angabe(optimal Kästchen), wie viele Tage es haltbar ist und wie viele Tagesrationen daraus gezogen werden können.
+\item Wasser. Verbrauchsgegenstand gegen Durst, kommt mit einer Angabe zur Kapazität.
+\item Verbandszeug. Bei Anwendung in Verbinung mit einer Probe auf Medizin lässt in 24h eine Wunde verschwinden.
+\item Schmerzmittel. Bei Anwendung wird für 2h Abzüge durch Wunden negiert.
+\item Medikament X. Bei Anwendung sinkt die Infektion um 1.
+\item Chemische Komponente. Handwerksmaterial für Chemie.
+\item Medizinische Komponente. Handwerksmaterial für Arneien oder Gifte.
+\item Mechanische Komponente. Handwerksmaterial zur Reperatur und Modifikation von mechanischen Objekten.
+\item Schrott. Diverser Müll, der für Wiederverwendung geeignet ist.
+\item Elektrische Komponente. Handwerkskmaterial. Siehe oben für elektrische Objekte.
+\item Batterien. Kommen in den größen Mini, AA, Babyzelle und Autobatterie, sowie verbleibende Lebensdauer in Stunden.
+\item Brennstoff. Kann zum Feuer machen verwendet werden.
+\item Streichhölzer/Feuerzeug. Dient zum Anzünden, ersteres kommt mit verbleibenden Anwendungen.
+\item Lichtquelle. Mit Angabe zum benötigten Betriebsmittel.
+\end{itemize}
+Fast alle oben genannten Gegenstände, sowie ziemlich alles andere, was man findet, lässt sich als Nahkampfwaffe verwenden. Als eine Daumenregel gilt, dass kleine Gegenstände(Konservendosen, Flaschen) ohne Deklaration als Waffe einen Modifikator von -2 haben, während große Gegenstände(Feueraxt) oder kleine Nahkampfwaffen(Messer) -1 besitzten. Echte Nahkampfwaffen(Schwerter, Macheten) liegen bei 0, während mechanische Waffen(Kettensäge) bei +1 starten.
+Nun kommen wir zu einer simplen Übersicht von Schusswaffen. Ihre Statistiken sind wie folgt aufgebaut: Name, Magazingröße, Reichweite, Schadensmodifikator und Zusatzinformationen.
+\begin{itemize}
+\item Pistole, 12, 3, 0.
+\item Revolver, 6, 4, +1.
+\item MP, 20, 3, +1. Zusätzlicher Schuss mit -1 auf Angriff. 
+\item Schrotflinte, 2, 2, +2. Triff in einem Kegel, kann komplettes Magazin für doppelten Schadenswurf leeren.
+\item Gewehr, 30, 10, +1. Automatische Version gibt 5 Schüssen mit -1/-2/-3/-3/-3 auf Angriff ab.
+\item Scharfschützen-Gewehr, 6, 100, +2. Ziel muss mindestens 10 Felder weit entfernt sein. 
+\item Bogen, 1, 10, +1.
+\item Armbrust, 1, 15, +2. Es werden 2 Aktionen zum Nachladen benötigt.
+\end{itemize}
+Alle diese Waffen haben einen eigenen Munitionstyp als Gegenstand. Alle Waffen benötigen nach einem kritischen Fehlschlag beim Angriff(1->1, 2) eine Reperatur. Der Bogen lässt sich allerdings nicht reparien, aber dafür als Nahkampfwaffe verwendet werden mit -1 auf Schaden und Angriff.
+\textbf{\uline{\\Waffenmodifikationen}}
+\\Eine Taschenlampe kann auf jede Waffe gebunden werden. Auf alle Waffen, außer Schrotflinte und Scharfschützengewehr, kann ein Visir angebracht werden, welche als Aktion Zielen ermöglicht für einen +1 Bonus auf den nächsten Angriff mit der Waffe. Auf alle Schusswaffen, außer Bögen, Armbrüste oder Schrotflinten kann ein Schalldämpfer aufgesetzt werden, welcher den Schaden um 1 verringert, aber dafür lautlos wird. Gewehre, Schrotflinten und auch Armbrüste können mit einem Bayonett, welches einen Angriff mit -1 auf Treffen und Schaden gibt.
+\textbf{\uline{\\Fertigkeiten}}
+\\Eine Übersicht von zusätzlichen Fertigkeiten:
+\begin{itemize}
+\item Faustkampf. Kampf mit Fäusten.
+\item Schlägerei. Kampf mit Improvisierten Nahkampfwaffen.
+\item Umgang mit Waffe*. Siehe Liste von Waffen oder einzigartige Waffen, wie Kettensägen.
+\item Medizin. Dient zur Anwendung von Medizinischen Gegenständen(vor allem Verbandszeug oder Medikament X) und die Bestimmung von Infektion.
+\item Chemie. Erstellen von chemischen Werkzeugen(z.B. Leuchtmittel oder Sprengstoff) oder Medikamenten.
+\item Reparien(Waffen). Mit 3 Mechanischen Teilen und einer Probe wird eine Waffe repariert.
+\item Mechanik. Bauen von Mechanischen Objekten(keine Schusswaffen), Reperatur von Fahrzeugen.
+\item Elektriker. Reparieren, Manipulieren und Erstellen von Elektrischen Schaltkreisen.
+\item Schlösser knacken. Mechanische Schlösser überwinden.
+\item Fährten lesen. Wichtig zur Jagd in der Wildniss.
+\end{itemize}
+\textbf{\uline{\\Bauen und Modifikationen}}
+\\Wenn alles in sich zusammenbricht, dann ist es die Aufgabe der Überlebenden mit dem Wiederaufbau zu beginnen. Hierzu können sie in der Zeit zwischen Zombies töten, rasten oder plündern von Nahkampfwaffen, Modifikatione für Schusswaffen, Fallen und Barrikaden für ihren Unterschlupf oder Fahrzeuge bereit machen. Anstatt einer einfachen Probe legt man zwischen 1(für Modifikationen oder Barrikaden) und 4(Für Fahrzeuge oder kompelxe Medizin) Proben ab, wobei jede Probe 4 Stunden Zeit repräsentiert, wobei jede Probe mit 2 Punkten übrig auf 2 Stunden reduziert. 4 Punkte übrig reduziert diese Zeit auf 1 Stunde. Spieler und Meister sollten hier zusammen arbeiten, um die Anzahl der Proben und die Art der Proben zu bestimmen. Scheitern mehr als die Hälfte aller Proben(kritische Fehlschläge zählen doppelt), gehen die Materialien verloren, wobei die Hälfte von verwendetem Schrott mit einer entsprechenden Probe(Meisterentscheid) auf Mechanik wiedergewonnen werden kann. 
+\\Für die Menge der benötigten Materialien, sei die Daumenregel, dass jede Probe 4 plus die Erschwernis Objekte aus der entsprechenden Kategorie kostet. 1 von 3 Materialen sollte durch Schrott ersetzt werden.
+\textbf{\uline{\\Spezifika}}
+\\Ein paar weitere Optionen für Spieler:
+\begin{itemize}
+\item X-Faktor: Proben gegen die Infektion sind um 1 erleichtert und alle 7 Tagen wird ein Punkt Infektion abgebaut, allerdings sink Charisma um 1, wegen Vorurteilen.
+\item Überlebenskünstler: Findet immer 2 weitere Gegenstände beim plündern, allerdings benötigt er 50\% länger.
+\end{itemize}
+\textbf{\uline{\\Spielleiter}}
+\\In einer Apokalypse ohne eine Organisation oder Gesellschaft, die den Spielern einen festen Rahmen für ihre Aufgaben geben kann, bestehen One-Shots innerhalb dieses Genres aus einzelnen Tagen oder kleinen Zeiträumen, wie einer Woche, die der Spielleiter mit Ereigniss füllt. Dies können Angriffe von anderen Überlebenden oder Zombiehorden sein oder Ausfälle von Lebenserhaltungssystem, etc. sein. Im Folgendem ein paar Anregungen zum Entwickeln einer Spielwelt und Gegnern. 
+\textbf{\uline{\\Was von der Menschheit verbleibt}}
+\\Zunächst betrachtet man die Bevölkerung. 65\% sollten zu Beginn unserer Szenarien tot sein und Futter für 35\% Infizierter sein. Womit 10\% Überlebende bleiben. Je nachdem wie der Hintergrund der Stadt ist, sollte 1-5\% dieser Partei aus Militär(Mit schwerer Bewaffnung und viel Munition) bestehen, wobei bei höheren Anteil, die anderen Überlebenden in einer provisorischen Militärdiktatur leben. 5\% der Überlebenden sind Einzelpersonen oder kleine Gruppen(bis zu 6 Personen), die einfach für ihr Überleben kämpfen. Die restlichen Überlebenden sind Banden(die Militärische Ausrüstung unter sich aufgeteilt haben), deren Größe jeweils von 0.5-2\% rangiert, angehörig. In kleinen Städten kann die Größen von Banden oder Überlebenden im Allgemeinen gegen null laufen. Welcher Partei von Überlebenden die Spieler angehören, steht zur freien Verfügung.
+\textbf{\uline{\\Eine Stadt im Verfall}}
+\\Im Folgendem eine Übersicht zu den größten Aspekten. Elektrizität und damit Vorkommen von Kühlkost in Haushalten geht gegen 0 und auch andere Dinge, wie Wasser, die im Kühlschrank stehen sind kontaminiert. Konserven oder Erträge aus Gärten, oder gut isolierte Lagerhäuser sind daher wichtigste Quelle für Lebensmittel und abgefülltes Wasser. Dieses widerrum kann auch aus dem Regen, Gewässern und ihm Notfall eigenem Urin gewonnen werden, wobei man sich um evt. Kontaminierung sorgen muss.
+\\Arzneien sind kostbar und meistens nur noch in Form privater Bestände zu finden. Chemische Komponenten sind aufgrund ihrer komplizierten Verwendung meist nicht angerührt worden, auch wenn Benzin, und andere verwendbare Produkte selten und gut gehütet sind. Die Reste müssen mühsam gefunden werden oder ausgebeutet werden(z.B. aus Tankstellenvorräten gepumpt werden). 
+\\Mechanische Teile sind zahlreich müssen aber in der Regel mühsam aus bestehenden Objekten ausgebaut werden müssen. Fahrzeuge sind vor allem in größeren Städten zahlreich, auch wenn Alarmanlagen(viele teils mechanisch, teils elektrisch), leere Tanks oder schlicht Verstopfung auf den Straßen, sie nicht besonders begehrenswert machen. Autos und andere Dinge zu verschrotten ist hingegen ein kleines Problem, womit dieser eigentlich immer sehr zahlreich ist.
+\\Während in der Apokalypse alles als Nahkampfwaffe verwendet werden kann, sind Schusswaffen und Munition je nach Gebiet etwas, welches nur dem Militär oder der Polizei zu Verfügung stand. Und selbst in Gebieten, in denen jeder Zivilist sich mit Waffen ausstatten kann, sollte nach einem Monat viel Munition verschwendet oder von Banden/Militär von den Straßen aufgesammelt worden sein, womit sie nur noch vereinzelt in Häusern zu finden sind.
+\\Von hier aus sollte es kein Problem sein, sich die Situationen in anderen Gebieten vorzustellen. Als generelle Regel sollte der Meister evt. 6 Decks an Gegenstandskarten erstellen, die einmal zwischen militärischen und zivilen Fundorten unterscheiden und dann nochmal in 3 Kategorien von Seltenheit unterteilen. Wenn dann ein Ort durchsucht wird, ziehen die Spieler entsprechend Karten aus diesen Decks. Eine Wahrnehmungsprobe und evt. Proben zum Extrahieren von Komponenten können veranschlagt werden, ersterer kann allerdings frustrierend sein.
+\textbf{\uline{\\Über die Lebenden Toten}}
+\\Auch wenn es sich effektiv um Lebende handelt, die ledeglich dem Wahn anheim gefallen sind, hat man ihnen den Stempel von Zombies oder auch Untoten aufgedrückt. Doch so einfach ist es nicht und \uuline{an dieser Stelle sollten Spieler NICHT weiterlesen}!
+\\In den ersten Tagen, bzw dem ersten Monat nachdem sie von der Infektion übernommen wurden, arbeiten weite Teile des Hirns noch. So ist das Bedürfniss nach frischen Menschenfleisch nicht infizierter zwar überwältigend und soetwas wie nächstenliebe oder moralischer Kompass sind nahezu tot, aber sie können sich zügeln, was ihnen die Gelegenheit gibt, sich unter die Lebenden zu mischen und sie dann anzugreifen, wenn sie es am wenigsten erwartet. Das und der Ekel vor totem und infizierten Fleisch, welcher interessanter weise sogar noch verstärkt zu sein scheint, ist auch der Grund, weshalb sich die Infektion überhaupt so weit ausweiten konnte und es soviele Infizierte gibt. Diese frühen Infizierten tragen den Namen Schläfer und sie stellen für die Überlebenden wohl die größte Gefahr dar, da sie es auch sinnt, welche sich nicht so leicht abschütteln lassen, da sie mit der Umgebung interagieren können. Sie ziehen aufgrund ihres relativ frischen Geruchs meist sogar andere Untote an, womit der Eindruck entsteht sie würden diese Anführen. In diesem Stadium sind ihre Werte vergleichbar mit denen von einfachen Leuten und sollten, wie eine Spieler mit Fokus auf ein Gebiet gebaut werden.
+\\Je länger jedoch jemand ein Infizierter ist, desto mehr greift das Virus das Hirn an und sorgt dafür, dass der Instinktive Hunger übernimmt. Punkte in Charisma und Intelligenz verschwinden völlig und werden im Verhältnis 2:1 nach Körper übertragen, womit der Durchschnitt bei 3-4 liegt. Alle Punkte des PAI werden zwischen Angriff und Initative im 2:1 Verhältnis aufgeteilt. Die Punkte in Stärke, Kondition und Geschick vollständig zwischen den beiden ersten aufgeteilt möglichst gleichmäßig mit Fokus auf Stärke. Alle Infizierten haben eine Wahrnehmung von 2(und reagieren sehr empfindlich auf nicht natürliche Geräusche) und einen Faustkampfwert von 3.
+Infizerte sterben, wie Lebende an Hunger(sie werden im Endstadium auch totes Fleisch essen) und Wunden, aber nicht an Durst. Als eine Daumenregel kommen die Horden immer in einer Größe von W6 und wachsen alle 10-SG Runden um einen W6, sofern weitere Aufmerksamkeit existiert. Natürlich gibt es auch Orte, die bereits voll sind mit Untoten, vor allem an Orten mit vielen Toten.
+\textbf{\uline{\\Andere Gegner}}
+Es gibt unter den Überlebenden in der Regel gemäß den drei Gruppen(Militär, Unabhängie und Banden) jeweils die Archetypen des Soldaten(mit Fokus auf Schusswaffen und minimaler Medizinischer Ausbildung), den Barbaren(mit viel Verteidigung und Höher Stärke, die im Nahkampf agieren), den Zivilisten(welcher Entweder eine Inselbegabung für eine handwerkliche Fertigkeit hat oder sehr charismatisch ist).
+\textbf{\uline{\\Anhang}}
+\\Dieses Material steht unter Creative Commons by-nc-sa.
+\textit{\\Text und Gestaltung von\\EWanderer/Axiomatis/Numinor}
+\end{multicols*}
+
+\end{document}
